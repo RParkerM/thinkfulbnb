@@ -144,3 +144,13 @@ footer p {
     align-content: center;
   }
 }
+
+@media (max-width: 320px) {
+  .logo {
+    font-size: 64px;
+  }
+  form select,
+  form input {
+    width: 140px;
+  }
+}
