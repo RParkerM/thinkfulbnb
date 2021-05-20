@@ -166,6 +166,7 @@ footer p {
   #about .group,
   #host .group {
     flex-direction: row;
+    align-items: center;
   }
 
   .inner-group {
@@ -185,9 +186,13 @@ footer p {
     margin: 0 10px;
   }
 
-  #about p,
-  #host p {
+  #about p {
     flex: 2;
+    margin: 10px;
+  }
+
+  #host p {
+    flex: 1;
     margin: 10px;
   }
   #ideas img {
