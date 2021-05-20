@@ -119,7 +119,7 @@ form button {
 /* -------  Sections ------- */
 
 #about .group,
-#ideas,
+#ideas .group,
 #host .group {
   display: flex;
   flex-direction: column;
@@ -168,6 +168,11 @@ footer p {
     flex-direction: row;
   }
 
+  .inner-group {
+    display: flex;
+    flex-direction: row;
+  }
+
   .item {
     flex: 1;
   }
@@ -176,10 +181,18 @@ footer p {
     flex: 2;
   }
 
+  #ideas .item {
+    margin: 0 10px;
+  }
+
   #about p,
   #host p {
     flex: 2;
     margin: 10px;
+  }
+  #ideas img {
+    min-width: 0;
+    margin: 0;
   }
 
   #about img,
